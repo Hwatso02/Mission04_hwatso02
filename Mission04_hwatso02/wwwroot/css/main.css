@@ -1,0 +1,28 @@
+﻿/*have "bleed" border and different font*/
+body {
+    font-family: Verdana;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+/*for sections on page*/
+h4 {
+    color: darkblue;
+}
+
+/*resize pic to fit on page nicer*/
+img {
+    height: 500px;
+}
+
+/*only have paragraph go across half the page*/
+p {
+    width: 50%;
+}
+
+/*change name color*/
+h1 {
+    color: darkblue;
+}

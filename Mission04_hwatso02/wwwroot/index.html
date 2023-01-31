@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!--title, icon, bootstrap, css-->
+    <meta charset="utf-8" />
+    <title>About Me - Mission #4</title>
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="img/icon.png" />
+</head>
+
+<!--create basic introduction-->
+<body>
+    <h1>Hailey Watson</h1>
+    <br />
+    <h4>Something I enjoy: Going to rodeos</h4>
+    <img id="picRodeo" src="img/Rodeo.jpg" />
+    <br /><br />
+
+    <<!--Paragraph-->
+    <h4>What do I hope to get from IS 413:</h4>
+    <p>
+        I would love to hopefully feel better and more comfortable coding in a laguage,
+        as I have yet to really like or feel good about coding in any language up to this point.
+        I've been able to manage and get through my classes and understand it to the bare minimum,
+        but not enough that I have any interest in any sort of coding once I graduate. Another thing
+        that would be useful to gain from this class is a better knowledge of how to use the debugger
+        to determine breaking points in code I write rather than spending hours trying to Google or stare at syntax.
+    </p>
+
+    <!--Top Jobs-->
+    <h4>Top 3 Jobs to Pursue:</h4>
+    <ul>
+        <li>Project Manager</li>
+        <li>IT Manager</li>
+        <li>Web Developer</li>
+    </ul>
+    <br />
+
+    <!--Create Form-->
+    <h4>Grade Calculator</h4>
+    <form>
+        <label>Assignments Percentage:</label>
+        <input id="Assignments" /><br /><br />
+        <label>Group Project Percentage:</label>
+        <input id="GroupProject" /><br /><br />
+        <label>Quizzes Percentage:</label>
+        <input id="Quizzes" /><br /><br />
+        <label>Midterm Exam Percentage:</label>
+        <input id="MidtermExam" /><br /><br />
+        <label>Final Exam Percentage:</label>
+        <input id="FinalExam" /><br /><br />
+        <label>INTEX Percentage:</label>
+        <input id="Intex" /><br /><br />
+        <label>Overall Grade:</label>
+        <div id="grade"></div><br /><br />
+        <input id="btnCalculate" type="button" value="Calculate Grade" />
+        <br /><br />
+    </form>
+
+    <!--import js and jquery-->
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/jquery/jquery-3.6.3.min (1).js"></script>
+    <script src="js/GradeCalculator.js"></script>
+</body>
+</html>
