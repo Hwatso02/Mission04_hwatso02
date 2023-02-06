@@ -35,7 +35,7 @@ namespace Mission04_hwatso02
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "(controller=cshtml)/{action = Index}"
+                    pattern: "{controller=cshtml}/{action=Index}"
                     );
             });
         }
