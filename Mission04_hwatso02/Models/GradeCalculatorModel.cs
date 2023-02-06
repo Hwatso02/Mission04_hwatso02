@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace Mission04_hwatso02.Models
 {
+    //Getters and Setters for Form
     public class GradeCalculatorModel
     {
         public float Assignment { get; set; }

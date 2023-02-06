@@ -14,12 +14,14 @@ namespace Mission04_hwatso02.Controllers
             return View();
         }
 
+        //Get for form
         [HttpGet]
         public IActionResult GradeCalculator()
         {
             return View();
         }
 
+        //Post for form
         [HttpPost]
         public IActionResult GradeCalculator(GradeCalculatorModel model)
         {
