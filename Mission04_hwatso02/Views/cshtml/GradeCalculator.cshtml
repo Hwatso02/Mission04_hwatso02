@@ -4,24 +4,27 @@
 @{
 }
 
+<!--Attach Model-->
+@model GradeCalculatorModel;
+
 <!--Create Form-->
 <h4>Grade Calculator</h4>
-<form>
+<form method="post">
     <label>Assignments Percentage:</label>
-    <input id="Assignments" /><br /><br />
+    <input id="Assignments" asp-for="Assignment"/><br /><br />
     <label>Group Project Percentage:</label>
-    <input id="GroupProject" /><br /><br />
+    <input id="GroupProject" asp-for="Project"/><br /><br />
     <label>Quizzes Percentage:</label>
-    <input id="Quizzes" /><br /><br />
+    <input id="Quizzes" asp-for="Quiz"/><br /><br />
     <label>Midterm Exam Percentage:</label>
-    <input id="MidtermExam" /><br /><br />
+    <input id="MidtermExam" asp-for="Midterm"/><br /><br />
     <label>Final Exam Percentage:</label>
-    <input id="FinalExam" /><br /><br />
+    <input id="FinalExam" asp-for="Final"/><br /><br />
     <label>INTEX Percentage:</label>
-    <input id="Intex" /><br /><br />
+    <input id="Intex" asp-for="Death"/><br /><br />
     <label>Overall Grade:</label>
     <div id="grade"></div><br /><br />
-    <input id="btnCalculate" type="button" value="Calculate Grade" />
+    <input id="btnCalculate" type="submit" value="Calculate Grade" />
     <br /><br />
 </form>
 
