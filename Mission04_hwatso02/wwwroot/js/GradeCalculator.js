@@ -31,6 +31,6 @@ if (percentage >= 94) {
 } else if (percentage < 60) {
     grades = "E";
 }
-    //assign letter grade into html
-    $("#grade").html(grades)
+    //send alert with the grade
+    alert("Overall Grade: " + grades);
 })
